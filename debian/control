@@ -1,12 +1,13 @@
 Source: ollama
-Section: unknown
+Section: utils
 Priority: optional
 Maintainer: gfdgd_xi <3025613752@qq.com>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
  make,
- golang
+ golang | golang-go,
+ linux-libc-dev
 Standards-Version: 4.6.2
 Homepage: https://gitee.com/GXDE-OS/ollama
 
